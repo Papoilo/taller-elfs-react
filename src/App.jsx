@@ -29,6 +29,7 @@ export default function KaraokeNavidad() {
 
   const [newSongTitle, setNewSongTitle] = useState("");
   const [newSongVideo, setNewSongVideo] = useState("");
+  console.log(newSongTitle);
 
   const [currentScore, setCurrentScore] = useState(5);
   const [scores, setScores] = useState([]); // { songTitle, score, date }
